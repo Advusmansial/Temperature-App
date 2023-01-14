@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Login</title>
+  <link rel="stylesheet" href="style sheet.css">
+</head>
+<body>
+  <h1>Secure Login</h1>
+  <form id="login-form">
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+    <input type="submit" value="Login">
+  </form>
+  <script src="my_java_script.js"></script>
+</body>
+</html>
+<!-- In this example, the login form is created using HTML and the CSS is used to style the form. JavaScript is used to handle the form submission and send a request to the server to check if the email and password are valid.
+The fetch() method is used to send a POST request to the server with the email and password as the data payload. The server would then compare the email and password to the one that is stored in a secure location like a database and respond with a JSON indicating success or failure.
+
+It's important to note that this is just an example and this code will not work as is. This example is using the Fetch API to make a request to the server, which is not supported in some older browsers. Also, this example doesn't include the server-side logic and data storage and encryption.
+
+Another important aspect is to always use HTTPS while communicating with the server to encrypt the data in transit, and also use salted hashing algorithm -->
+
+
+
+
